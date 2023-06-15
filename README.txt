@@ -1,7 +1,3 @@
-Student Name: Weicheng Yu
-Student ID: 101195054
-Implement part 5d or not? No
-
 Instructions about how to run the server:
 1. Type "npm install" in terminal to install all the dependencies for this project
 
