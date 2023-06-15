@@ -1,0 +1,10 @@
+html
+    head
+        title Vendors
+body
+    include ./headers
+    div
+        h2 All vendors:
+        each vendor in vendors
+                a(href="/vendors/" + vendor.id) #{vendor.name}
+                br

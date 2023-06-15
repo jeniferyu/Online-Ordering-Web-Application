@@ -1,0 +1,23 @@
+html
+    head
+        script(type='text/javascript', src='/js/addvendor.js')
+        title Add a vendor
+body
+    include ./headers
+    
+    div
+        h2 Add a vendor:
+        label(for='name') Name:  
+        input(type = 'textbox', id = 'vendorName', value = '')
+        br
+        br
+        label(for='delivery') Delivery fee:  
+        input(type = 'textbox', id = 'vendorDeliveryFee', value = '')
+        br
+        br
+        label(for='minimum') Minimum order:  
+        input(type = 'textbox', id = 'vendorMinimum', value = '')
+        br
+        br
+        button#addNew Save the new vendor
+
